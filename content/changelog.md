@@ -1,4 +1,5 @@
 ---
+# Do not translate Changelog
 title: "Changelog for Introduction to Web Accessibility"
 title_html: "Changelog for <a href='/WAI/fundamentals/accessibility-intro/'>Introduction to Web Accessibility</a>"
 nav_title: "Changelog"
@@ -9,11 +10,46 @@ permalink: /fundamentals/accessibility-intro/changelog/
 ref: /fundamentals/accessibility-intro/changelog/
 github:
    repository: w3c/wai-intro-accessibility
+   branch: gh-pages
    path: content/changelog.md
 
 feedbackmail: wai@w3.org
 
 ---
+
+## 2024-03Mar-07
+
+- Update some links to use HTTPS
+- In ["What is Web Accessibility" section](https://www.w3.org/WAI/fundamentals/accessibility-intro/#what), in "More Info on What is Accessibility" box:
+  - Replaced "see the mobile resource" with "see the archived mobile resource".
+  - Replaced "multimedia" with "the multimedia resource"
+  - Replaced "the archived" with "the archived resource"
+  - Reordered resources: multimedia resource, then benefits for people with and without disabilities, then mobile resource.
+
+
+{::nomarkdown}
+{% include box.html type="start" h="3" title="Content after update" class="full" %}
+{:/}
+
+```markdown
+-   If you want more examples of benefits for others, see the multimedia resource [Used by People With and Without Disabilities](/media/av/users-orgs/#situations), the archived resource [Web Accessibility Benefits People With and Without Disabilities](https://www.w3.org/WAI/business-case/archive/soc#groups) and the archived mobile resource [[Shared Web Experiences: Barriers Common to Mobile Device Users and People with Disabilities]](/standards-guidelines/shared-experiences/).
+```
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+## 2023-11Nov-20
+
+- In ["Examples" section"](https://www.w3.org/WAI/fundamentals/accessibility-intro/#examples), update links to "Understanding WCAG 2" pages, to point to WCAG 2.2. versions.
+- Use canonical and relative links (when possible):
+  - `https://www.w3.org/WAI/videos/standards-and-benefits/` instead of `https://www.w3.org/WAI/videos/standards-and-benefits.html`
+  - `/about/participating/` instead of `/get-involved/`
+  - `/tutorials/` instead of `https://www.w3.org/WAI/tutorials/`
+  - `/resources/` instead of `/Resources/`
+  - `/courses/foundations-course/` instead of `https://www.w3.org/WAI/fundamentals/foundations-course/`
+- In ["For More Information" section](https://www.w3.org/WAI/fundamentals/accessibility-intro/#more-info), use double brackets around "Digital Accessibility Foundations - Free Online Course", to automatically use the title of the linked-to resource as link text.
+- Update frontmatter for translators. 
 
 ## 2022-03Mar-31
 
